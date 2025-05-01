@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
-import SearchForm from "./components/searchForm";
-import ResultCard from "./components/resultCard";
+import SearchForm from "../components/searchForm";
+import ResultCard from "../components/resultCard";
 
 export default function Home() {
   const [query, setQuery] = useState("");
