@@ -1,6 +1,6 @@
 // src/app/api/search/route.js
 import { NextResponse } from "next/server";
-import searchInventory from "../../functions/searchInventory";
+import searchInventory from "../../../functions/searchInventory";
 
 export async function GET(request) {
   const { searchParams } = new URL(request.url);
